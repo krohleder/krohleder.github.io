@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="enable-threads.js"></script>
+<title>Cube</title>
+<style>
+  /* Set the body to full viewport height, remove margin, and center content with flexbox */
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey; /* Just to distinguish the iframe from the background */
+  }
+
+  /* Style the iframe */
+  iframe {
+    width: 640px;  /* Width of the iframe */
+    height: 480px; /* Height of the iframe */
+    /* border: 1px solid #000; Optional border for the iframe */
+    /* If you want to ensure the iframe is centered both vertically and horizontally at all times */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+</style>
+</head>
+<body>
+<iframe src="Barnaba.html" title="Game" frameborder="0"></iframe>
+</body>
+</html>
